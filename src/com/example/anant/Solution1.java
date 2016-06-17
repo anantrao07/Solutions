@@ -27,7 +27,7 @@ public class Solution1 {
         for(int i = 0; i<testCase; i++){
         	StringBuilder even = new StringBuilder();
             StringBuilder odd = new StringBuilder();
-     Character[] sample = Solution.toCharacterArray(sArray[i]);
+     Character[] sample = Solution1.toCharacterArray(sArray[i]);
         for(int j = 0;j<sample.length ; j++){
         	
         	
