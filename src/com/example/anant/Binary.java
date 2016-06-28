@@ -49,12 +49,10 @@ public class Binary {
 	    	if(temp == 1 ){
 	    		counter = counter+1;
 	    		
-	    		
 	    	}
 	    	
 	    	else{
-	    		counter = 0;
-	    		
+	    		counter = 0;	    		
 	    	}
 	    	count.add(counter);
 	
@@ -66,6 +64,4 @@ public class Binary {
        
 	   in.close();
 	}
-	
-
 }
