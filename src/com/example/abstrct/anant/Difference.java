@@ -7,7 +7,7 @@ import java.util.regex.*;
 
 //The absolute difference between two integers, a and b , is written as . 
 //The maximum absolute difference between two integers in a set of positive integers a and b 
-//is the largest absolute difference between any two integers in array  .
+//is the largest absolute difference between any two integers in array.
 class Difference {
   	private int[] elements;
   	public int maximumDifference;
