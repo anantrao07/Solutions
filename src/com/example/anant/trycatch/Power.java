@@ -14,7 +14,7 @@ public class Power {
 	        else if(p==0){
 	            
 	            	number =1;
-	                System.out.println(number);
+	                //System.out.println(number);
 	            	return number;
 	            	
 	            }
