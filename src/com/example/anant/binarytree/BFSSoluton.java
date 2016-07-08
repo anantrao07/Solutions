@@ -5,6 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class BFSSoluton {
+long l = 10L;
 
 	static void levelOrder(Node root){
 	     Queue<Node> q = new LinkedList();
@@ -55,5 +56,6 @@ public class BFSSoluton {
                 root=insert(root,data);
             }
             levelOrder(root);
+			
         }
 }
