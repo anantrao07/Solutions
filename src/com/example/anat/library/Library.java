@@ -23,40 +23,43 @@ public class Library {
 	        int ed = sc.nextInt();
 	        int em = sc.nextInt();
 	        int ey = sc.nextInt();
-	         
-	        if(y== ey && m == em && d!=ed){
-	        	if(ed>d){
-	        	totalFine = dayfine*(ed-d);
+	        
+	        if(y<=ey && m == em){
 	        	
-	        	System.out.println((dayfine*(ed-d)));
-	        	}
-	        	else{
-	        		System.out.println((dayfine*(d-ed)));
-	        	}
-	        	
-	        }
-	        else if(ey == y &&  m!=em){
-	        	if(em>m){
-	        	totalFine = monthfine*(em-m);
-	        	System.out.println(totalFine);
-	        	}
-	        	else{
-	        		totalFine = monthfine*(m-em);
+	        	if(d > ed){
+	        		totalFine = dayfine*(d-ed);
 	        		System.out.println(totalFine);
 	        		
 	        	}
-	        	
+	        	else {
+	        		
+	        		System.out.println(totalFine);
+	        		
+	        	}
+	        
 	        }
-	        else if( (d==ed && m==em && y==ey) || (d<=ed && m<=em && y<=ey)){
-	        	System.out.println(totalFine);
-	        	
-	        }
-	        else if(y > ey ){
+	        
+	        if(y>ey){
 	        	System.out.println(yearfine);
+	        	
 	        }
-	        
-	     
-	        
+	        if(y<ey){
+	        	System.out.println("0");
+	        	
+	        }
+	        if(y==ey && m!=em){
+	        	if(em>m){
+		        	totalFine = monthfine*(em-m);
+		        	System.out.println(totalFine);
+		        	}
+		        	else{
+		        		totalFine = monthfine*(m-em);
+		        		System.out.println(totalFine);
+		        		
+		        	}
+	        	
+	        }
+	       
 	    }
 	}
 
