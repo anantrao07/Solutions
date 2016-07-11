@@ -38,14 +38,24 @@ public class Solution {
 			System.out.println("Prime");
 		}
 		
-		
+short s =10 ;
+char c = 10;
+
+
+
+
 		}
 		
 		
 	
 	public static void main(String[] args) {
+		
+		String String = "sas";
+		
 		// TODO Auto-generated method stub
 		//Solution sln = new Solution();
+		System.out.println(("hello" + new String("world")));
+		System.out.println("hello".concat(" world"));
 		Scanner s  = new Scanner(System.in);
 		int n = s.nextInt();
 		int[] a = new int[n];
